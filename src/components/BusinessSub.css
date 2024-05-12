@@ -1,0 +1,60 @@
+.main_grid{
+    margin-top: 750px;
+}
+
+.home_heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #0A372D;
+    margin-top: 40px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    background-color: #edf2f7;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.tile-image {
+    height: 10rem;
+    background-color: #cbd5e0; 
+    border-radius: 0.5rem;
+}
+
+.tile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.tile-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.tile-text {
+    font-size: 0.875rem; 
+}
+
+.tile-link {
+    padding: 0.5rem 1rem; 
+    border-radius: 0.25rem;
+    font-weight: 500;
+    background-color: #cbd5e0; 
+    font-size: 0.75rem; 
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2d3748; 
+}
+
+.anime{
+    transition: transform 0.3s ease;
+}
+.anime:hover{
+    transform: scale(1.1);
+}
